@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<!-- En tête de la page -->
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="monCv.css">
+		<title>Mon cv</title>
+	</head>
+   
+	   
+ 
+ <body>
+ <div id="marge"></div>
+  	 
+  <header>
+  		<div id="identification">
+  		 <form method="post" action="treatment.php">
+  			<p><label>Identifiant :</label><input type="text" name="pseudo"></p>
+  		 </form>
+  		 <form method="post" action="treatment.php">
+  			<p><label>Mot de passe :</label><input type="password" name="pseudo" placeholder="***********"></p>
+  		 </form>
+  		 	<p><label>cliquez-ici :</label><input type="submit" value="envoyer" /></p>
+  		</div>
+  		<div class="header2">
+			<!-- création du titre 1 -->
+		 <h1>AMAURY SKYLWAKER</h1>
+		 <!-- petite description de ma personne -->
+		 <span><a href="pictures/R2D2.jpg" target="_blank"><img src="pictures/R2D2_miniature.jpg" alt="ma photo" title="cliquez pour agrandir" class="ma_photo" ></a></span>
+		 <p class="c2003">Passionné de sport et d'informatique.<br /> Padawan en programmation !<br /><audio src="audio/starWars.mp3" controls></audio><br/>
+		 <!-- insertion de mon image  ( fictive ) dans le paragraphe avec une infobulle, et un hyperlien menant vers la photo en plus grand format sur une autre page web -->
+		 </p>
+	    </div>
+  </header>
+		<!-- création du titre sur mon expérience -->	 
+  <section>
+
+   <div id="section1">
+	    <div id="block">
+		 <h2>Mon expérience :</h2>
+		<!-- je crée une liste de puce non numérotées sur mon expérience en mettant en avant les dates -->
+		  <ul class="experience">
+			<li><strong>De 2003 à 2006 :</strong> Lycée militaire.</li>
+			<li><strong>De 2006 à 2008 :</strong> math sup/spé.</li>
+			<li><strong>De 2009 à aujourd'hui :</strong> j'exerce mon métier tout en souhaitant effectuer<br />une reconversion dans l'univers de la programmation informatique.</li>
+		   </ul>
+	     </div>
+	     <div id="block">
+		<!-- création du titre 2 sur mes compétences -->
+		   <h2>Mes compétences :</h2>
+		<!-- création d'une liste de puces numérotées sur mes compétences avec intégration de liens vers une page web -->
+		   <ol class="experience"><br />
+			 <li>Padawan en C# et ASP.NET (<a href="https://openclassrooms.com/courses/apprenez-a-developper-en-c" target ="_blank" title="cliquez ici">un trés bon cours de c#)</a>,</li>
+		   	 <li>Python(<a href="https://fr.wikipedia.org/wiki/Python_(langage)"target="_blank" title="cliquez ici">liens vers wikipédia),</a></li>
+			<li>Padawan en html5</li>
+			<li>Kali linux.<a href="https://www.kali.org/" target="_blank" title="cliquez ici">vers https://www.kali.org/,</a></li>
+		  </ol>
+	     </div>
+	     <div id="block">
+		<!-- création du titre sur ma formation -->
+		  <h2>Ma formation :</h2>
+		<!-- création d'un paragraphe sur le descriptif de ma formation -->
+		  <p><mark>Autodidacte !</mark>En ce qui concerne mon apprentissage en matière <br /> de dev je suis sur <span class="rouge">openClassrooms</span> depuis 2014 <br />et j'ai plusieurs de leurs bouqins.</p>
+		
+	    </div>
+    </div>
+    </section>
+    
+         <table id="tableau1">
+    		<tr>
+    			<th>Nom</th>
+    			<th>couleur de sabre</th>
+    		</tr>
+    		<tr>
+    			<td>Yoda</td>
+    			<td id="vert">vert</td>
+    	    </tr>
+    		<tr>
+    			<td>Skylwalker</td>
+    			<td id="vert">vert</td>
+    		</tr>
+    			<td>Vador</td>
+    			<td id="rouge">rouge</td>
+    		<tr>
+    			<td>Windu</td>
+    			<td id="violet">violet</td>
+    		</tr>
+
+
+    	 </table >
+    	 <video  controls width="300" id="video">
+    	 	<source src="video/yoda.mp4">
+    	 	<source src="video/yoda.webm">
+    	 </video>
+   
+   
+ </body>
+
+</html>

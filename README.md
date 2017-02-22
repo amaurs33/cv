@@ -1,1 +1,1 @@
-# cv que j'ai réaliser pour mon projet openClassroot trop cool
+# cv que j'ai réaliser pour mon projet openClassroom. Mise à jour du README.md dans le cadre de la formation à git !

@@ -1,2 +1,2 @@
-# cv que j'ai réaliser pour mon projet openClassroom. Mise à jour du README.md dans le cadre de la formation à git !
-Je continue maa formation.
+# Ce repository comprend deux fichiers : css et html. C'est le projet que j'ai réalisé pour mes cours de html5 et css3 openClassrooms.
+J'ai effectué aussi bien des commits en local que sur github.
